@@ -5,7 +5,7 @@ window = Tk()
 
 #Functions
 def clickedStart():
-    time.sleep(3)
+    time.sleep(1)
 
     run = True
     intervalInt = None
@@ -13,7 +13,7 @@ def clickedStart():
     try:
         intervalInt = int(txt.get())
     except:
-        pass
+        passd
     start = time.time()
 
     while run == True:
