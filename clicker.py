@@ -13,12 +13,12 @@ def clickedStart():
     try:
         intervalInt = int(txt.get())
     except:
-        passd
+        pass
     start = time.time()
 
     while run == True:
 
-        if keyboard.is_pressed('0'):
+        if keyboard.is_pressed('q'):
             run = False
             break
 
